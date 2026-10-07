@@ -1,3 +1,24 @@
 .col{
     border: 5px red;
 }
+
+/* Card Hover Effects */
+.destination-card,
+.package-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.destination-card:hover,
+.package-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15) !important;
+}
+
+.destination-card .card-img-top,
+.package-card .card-img-top {
+    transition: transform 0.3s ease;
+}
+
+.destination-card:hover .card-img-top {
+    transform: scale(1.05);
+}

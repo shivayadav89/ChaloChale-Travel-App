@@ -22,3 +22,16 @@
 .destination-card:hover .card-img-top {
     transform: scale(1.05);
 }
+
+/* Button Hover Effects */
+.btn-success:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(25, 135, 84, 0.4);
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(13, 110, 253, 0.4);
+    transition: all 0.3s ease;
+}

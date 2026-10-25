@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In - ChaloChale</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="navbar-brand">
+                    <img src="images/chalo-chale.png" alt="Chalo Chale" height="50">
+                </a>
+
+                <button class="navbar-toggler" type="button" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="destination.html" class="nav-link">Destinations</a></li>
+                    <li><a href="packages.html" class="nav-link">Tour Packages</a></li>
+                    <li><a href="booking.html" class="nav-link">Booking</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+
+                <a href="booking.html" class="btn-plan-trip">Plan Your Trip</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section" style="background-image: url('images/home.png');">
+        <div class="hero-content">
+            <h1>
+                <span class="line-1">Sign In</span>
+                <span class="line-2">Welcome Back</span>
+            </h1>
+            <p>Access your account and continue your journey</p>
+        </div>
+    </section>
+
+    <!-- Sign In Section -->
+    <section class="featured-destinations">
+        <div class="container">
+            <div style="max-width: 500px; margin: 0 auto; background: white; padding: 40px; border-radius: 20px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);">
+                <h2 style="text-align: center; font-size: 28px; font-weight: 700; margin-bottom: 24px; color: var(--dark-navy);">Sign In</h2>
+                <form>
+                    <div style="margin-bottom: 20px;">
+                        <label style="display: block; font-weight: 600; margin-bottom: 8px; color: var(--dark-navy);">Email Address</label>
+                        <input type="email" style="width: 100%; padding: 12px; border: 1px solid #e9ecef; border-radius: 8px; font-size: 16px;" placeholder="Enter your email" required>
+                    </div>
+                    <div style="margin-bottom: 20px;">
+                        <label style="display: block; font-weight: 600; margin-bottom: 8px; color: var(--dark-navy);">Password</label>
+                        <input type="password" style="width: 100%; padding: 12px; border: 1px solid #e9ecef; border-radius: 8px; font-size: 16px;" placeholder="Enter your password" required>
+                    </div>
+                    <div style="margin-bottom: 20px;">
+                        <label style="display: flex; align-items: center; cursor: pointer;">
+                            <input type="checkbox" style="margin-right: 8px;">
+                            <span style="color: var(--dark-navy);">Remember me</span>
+                        </label>
+                    </div>
+                    <button type="submit" class="btn-explore" style="width: 100%;">Sign In</button>
+                </form>
+                <div style="text-align: center; margin-top: 16px;">
+                    <a href="#" style="color: var(--primary-orange); text-decoration: none; font-weight: 600;">Forgot Password?</a>
+                </div>
+                <p style="text-align: center; margin-top: 20px; color: #6c757d;">
+                    Don't have an account? <a href="signup.html" style="color: var(--primary-orange); text-decoration: none; font-weight: 600;">Sign Up here</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
